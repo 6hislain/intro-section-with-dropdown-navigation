@@ -1,0 +1,58 @@
+html,
+body {
+	margin: 0;
+	background: hsl(0, 0%, 98%);
+	font-size: 18px;
+	font-family: 'Epilogue', sans-serif;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 35px;
+}
+.left-menu,
+.right-menu {
+	display: inline;
+	list-style: none;
+	padding: 0;
+	margin: 10px 0;
+}
+.nav-item,
+.nav-brand {
+	float: left;
+	margin: 15px 30px;
+}
+.logo {
+	width: 100%;
+}
+
+.register-button,
+.action-button {
+	border: 2px solid;
+	border-radius: 15px;
+	padding: 10px 20px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	gap: 20px;
+}
+
+.hero-message {
+	margin: auto 0;
+}
+
+.hero-image {
+	width: 400px;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
