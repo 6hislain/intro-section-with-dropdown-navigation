@@ -6,10 +6,15 @@ body {
   font-family: "Epilogue", sans-serif;
 }
 
-.navbar {
+.navbar,
+.menu-flex,
+.nav-brand {
   display: flex;
+}
+
+.menu-flex {
   justify-content: space-between;
-  padding: 0 35px;
+  flex-grow: 1;
 }
 
 .menu {
@@ -17,6 +22,11 @@ body {
   list-style: none;
   padding: 0;
   margin: 10px 0;
+}
+
+.nav-brand {
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-item,
@@ -136,6 +146,14 @@ body {
 
 /* DESKTOP */
 @media (min-width: 1440px) {
+  .nav-brand {
+    margin-left: 35px;
+  }
+
+  .menu-flex {
+    padding-right: 35px;
+  }
+
   .container {
     max-width: 1000px;
     margin: auto;
