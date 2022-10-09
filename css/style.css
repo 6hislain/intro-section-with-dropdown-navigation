@@ -176,7 +176,7 @@ body {
 }
 
 /* DESKTOP */
-@media (min-width: 1440px) {
+@media (min-width: 1140px) {
   .nav-brand {
     margin-left: 35px;
   }
@@ -216,7 +216,7 @@ body {
 }
 
 /* MOBILE */
-@media (max-width: 1440px) {
+@media (min-width: 375px) and (max-width: 1140px) {
   .menu-flex > .menu,
   .hero-banner {
     display: none;
