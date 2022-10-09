@@ -216,7 +216,7 @@ body {
 }
 
 /* MOBILE */
-@media (min-width: 375px) and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .menu-flex > .menu,
   .hero-banner {
     display: none;
